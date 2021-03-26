@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+puts "************* Loading mimemagic *************"
 require 'mimemagic/tables'
 require 'mimemagic/version'
 
