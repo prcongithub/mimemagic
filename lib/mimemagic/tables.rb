@@ -65,7 +65,7 @@ class MimeMagic
   end
 
   def self.open_mime_database
-    path = MimeMagic::DATABASE_PATH
+    path = ENV.fetch('FREEDESKTOP_MIME_TYPES_PATH')
     File.open(path)
   end
 
